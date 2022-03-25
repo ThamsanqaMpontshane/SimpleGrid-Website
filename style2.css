@@ -1,0 +1,39 @@
+
+table, td, th {
+    border: 2px solid black;
+  }
+  table {
+    width: 500px;
+    /* margin-left: 50%;
+    margin-right: 100%; */
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: rgb(128,128,128,0.5);
+    color: red;
+  }
+  .row > div {
+      /*  */
+  }
+ 
+  .col-4 > img {
+    width: 240px;
+    height: 240px;
+    margin-left: 15px;
+    margin-right: 13px;
+    margin-top: 16px;
+  }
+  .col-4 > p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .col-4 > img {
+    border: 5px double black;
+  }
+  @media (max-width:600px) {
+    table{
+      width: 400px;
+    }
+  }
