@@ -1,4 +1,3 @@
-
 table, td, th {
     border: 2px solid black;
   }
@@ -30,7 +29,7 @@ table, td, th {
     padding-right: 10px;
   }
   .col-4 > img {
-    border: 5px double black;
+    /* border: 5px double black; */
   }
   @media (max-width:600px) {
     table{
