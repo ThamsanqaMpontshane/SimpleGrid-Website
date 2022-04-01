@@ -1,38 +1,102 @@
-table, td, th {
-    border: 2px solid black;
-  }
-  table {
-    width: 500px;
-    /* margin-left: 50%;
+table,
+td,
+th {
+  border: 2px solid black;
+}
+
+table {
+  width: 500px;
+  /* margin-left: 50%;
     margin-right: 100%; */
-    margin: auto;
-    border: 3px solid black;
-    border-collapse: collapse;
+  margin: auto;
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(128, 128, 128, 0.5);
+  color: red;
+}
+
+.col-4>img {
+  width: 240px;
+  height: 240px;
+  margin-left: 15px;
+  margin-right: 13px;
+  margin-top: 16px;
+}
+
+.col-4>p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 600px) {
+  table {
+    width: 220px;
+    margin-left: 28px;
+    text-align: center;
   }
-  th {
-    background-color: rgb(128,128,128,0.5);
-    color: red;
+  .table{
+    margin-right: 0px;
+    width: 220px;
+    padding-right: 0px;
   }
-  .row > div {
-      /*  */
+  body {
+    margin: 0;
   }
- 
-  .col-4 > img {
-    width: 240px;
-    height: 240px;
-    margin-left: 15px;
-    margin-right: 13px;
-    margin-top: 16px;
+
+  p {
+    font-size: 20px;
+    width: 250px;
   }
-  .col-4 > p {
-    padding-left: 10px;
-    padding-right: 10px;
+
+  .p1 {
+    width: 270px;
   }
-  .col-4 > img {
-    /* border: 5px double black; */
+
+  h1 {
+    width: 360px;
+    font-size: 30px;
   }
-  @media (max-width:600px) {
-    table{
-      width: 400px;
-    }
+  h3{
+    width: 270px;
   }
+  .image1 {
+    width: 260px;
+    height: 100%;
+  }
+
+  .image2 {
+    width: 260px;
+  }
+
+  .col-4>p {
+    padding-left: 3px;
+    padding-right: 0px;
+  }
+
+  .col-4>img {
+    margin-left: 0px;
+  }
+
+  .container {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+
+  .p4 {
+    padding-right: 0px;
+    background-color: rgb(128, 128, 128, 0.5);
+  }
+
+  .row {
+    margin-right: 0px;
+    width: 200px;
+  }
+
+  .col-4 {
+    margin-right: 0px;
+    margin-left: 0px;
+    /* background-color: blue; */
+  }
+}
