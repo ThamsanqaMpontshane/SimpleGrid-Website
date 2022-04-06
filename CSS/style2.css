@@ -49,6 +49,9 @@ th {
   font-size: 24px;
   font-weight: bolder;
 }
+.image1 {
+  height: 240px;
+}
 @media (max-width: 600px) {
   table {
     width: 220px;
